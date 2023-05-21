@@ -6,6 +6,15 @@ var c = document.getElementById('alx');
 
   e = [];
   h = [];
+var win = window,
+  doc = document,
+  w = win.innerWidth,
+  height = win.innerHeight,
+  canvas = doc.getElementById('workspace');
+  if( win.navigator.userAgent.match(/(iPhone|iPod|iPad|Android|BlackBerry)/i) ) {
+    c.height = height;
+    c.width  = w;
+  }
   WIDTH = c.width = innerWidth;
   HEIGHT = c.height = innerHeight;
   v = 32 + 16 + 8;
