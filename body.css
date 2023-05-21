@@ -3,3 +3,9 @@ body
   padding: 0;
   margin: 0;
 }
+@media only screen and (max-width: 1080px) {
+  canvas.full {
+    width: 100%;
+    height: 100%;
+  }
+}
